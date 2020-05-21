@@ -1,0 +1,24 @@
+{
+    "name": "vit-gon/comments-service-layer",
+    "description": "Intermediate service for dealing with comments",
+    "keywords": ["comments", "comments-service", "comments-service-layer", "composer", "package"],
+    "type": "project",
+    "authors": [
+        {
+            "name": "Vitaliy Goncharov",
+            "email": "www.devvit@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "6.*"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "VitGon\\CommentsServiceLayer\\": "src/"
+        }
+    }
+}

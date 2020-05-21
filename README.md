@@ -11,7 +11,7 @@ C:\Users\User\Desktop> composer install
 
 ```php
 /**
- * If we it were a library, we would use it this way
+ * If it were a library, we would use it this way
  */
 require_once 'vendor/autoload.php';
 

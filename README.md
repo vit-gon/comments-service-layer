@@ -8,6 +8,12 @@ Before start using run this in CMD:
 ```
 C:\Users\User\Desktop> composer install
 ```
+### CommentsService
+| Return type | Method |
+| --- | --- |
+| array | getAll() |
+| array | create(Comment $comment) |
+| array | update(Comment $comment) |
 
 ```php
 /**
